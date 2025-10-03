@@ -19,7 +19,6 @@ Este proyecto contiene mis implementaciones y soluciones a los ejercicios de pro
 git clone https://github.com/tu-usuario/retos-programacion.git
 cd retos-programacion
 
-text
 
 ### Crear entorno virtual
 
@@ -29,25 +28,21 @@ source .venv/bin/activate # En Linux/Mac
 o
 .venv\Scripts\activate # En Windows
 
-text
 
 ### Instalar dependencias
 
 pip install -r requirements.txt
 
-text
 
 ### Ejecutar un ejercicio
 
 python src/12_json_xml.py
 
-text
 
 ### Ejecutar tests
 
-python -m pytest tests/
-
-text
+Siempre ejecuta pytest desde la raíz del proyecto, no desde la carpeta tests
+PYTHONPATH=src pytest
 
 ## 📝 Ejercicios resueltos
 
