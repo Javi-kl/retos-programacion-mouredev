@@ -11,17 +11,6 @@ Este proyecto contiene mis implementaciones y soluciones a los ejercicios de pro
 - **Python** 3.10+
 - **Bibliotecas**: (json, xml, pytest.)
 
-## 📂 Estructura del proyecto
-
-retos-programacion/
-├── src
-│ ├── 12_json_xml.py
-│ └── 13_pruebas_unitarias.py
-├── tests
-│ └── test_ejemplo.py
-├── .gitignore 
-└── README.md 
-
 
 ## 🚀 Instalación y uso
 
