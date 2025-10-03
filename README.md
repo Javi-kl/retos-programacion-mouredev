@@ -64,7 +64,7 @@ text
 
 **[Tu Nombre]**
 
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
+- GitHub: [@javi-kl](https://github.com/javi-kl)
 - LinkedIn: [Tu perfil](https://linkedin.com/in/tu-perfil) *(opcional)*
 
 ## 📄 Licencia
