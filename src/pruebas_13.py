@@ -15,3 +15,6 @@ datos = {
 }
 inputs_list = datos.values()
 print(inputs_list)
+
+list_keys = datos.keys()
+print(list_keys)
