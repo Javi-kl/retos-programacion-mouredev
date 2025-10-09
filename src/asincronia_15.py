@@ -5,7 +5,7 @@ import time
 
 async def funcion_asincrona(
     time: int, name: str
-) -> str:  # Define una corutina con 'async def;
+):  # Define una corutina con 'async def;
     print(f"Iniciando función ...{datetime.datetime.now().strftime('%H:%M:%S')}")
     print(f"Nombre: {name} ")
     print(f"La función durara {time} segundos")
