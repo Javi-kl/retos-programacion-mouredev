@@ -18,7 +18,7 @@ Extra
 
 def buscar_email(texto):
     # Patrón: letras/números + @ + letras/números + . + letras
-    patron = r"\w+@\w+\.[a-z]{2,}"  # \W+ = una o mas letras/numeros, @ = arroba literal, \. = punto literal [a-z]{2,} al menos 2 letras minusculas
+    patron = r"[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}"  # \W+ = una o mas letras/numeros, @ = arroba literal, \. = punto literal [a-z]{2,} al menos 2 letras minusculas
     resultado = re.search(
         patron, texto
     )  # re.search busca la primera coincidencia del patron
