@@ -12,8 +12,12 @@ class WeekDay(Enum):
 
 
 def day_today(num):
-
-    return WeekDay(num).name
+    if not isinstance(num, int):
+        raise TypeError("num debe ser int")
+    try:
+        return WeekDay(num).name
+    except ValueError as e:
+        raise ValueError("Número de día inválido usa 1-7") from e
 
 
 print(day_today(6))
@@ -28,7 +32,7 @@ print("\n--- Ejercicio Extra ---")
 class StatusOrder(Enum):
 
     PENDING = 1
-    SEND = 2
+    SENT = 2
     DELIVERED = 3
     CANCELED = 4
 
@@ -38,29 +42,31 @@ class Order:
         self.id_order = id
         self.status_order = StatusOrder.PENDING
 
-    def send_order(self):
+    def send_order(self) -> bool:
         if self.status_order == StatusOrder.PENDING:
-            self.status_order = StatusOrder.SEND
-        else:
-            print(f"El pedido {self.id_order} no puede enviarse.")
+            self.status_order = StatusOrder.SENT
+            return True
 
-    def cancel_order(self):
+        return False
+
+    def cancel_order(self) -> bool:
         if self.status_order == StatusOrder.DELIVERED:
-            print(f"El pedido {self.id_order} ya esta entregado \nNo puede cancelarse")
-        else:
-            self.status_order = StatusOrder.CANCELED
+            return False
 
-    def delivered_order(self):
-        if self.status_order != StatusOrder.SEND:
-            print(f"No se puede entregar pedido {self.id_order}, aún no esta enviado.")
-        else:
+        self.status_order = StatusOrder.CANCELED
+        return True
+
+    def delivered_order(self) -> bool:
+        if self.status_order == StatusOrder.SENT:
             self.status_order = StatusOrder.DELIVERED
+            return True
+        return False
 
     def __str__(self) -> str:
         return f"Estado del pedido {self.id_order} es: {self.status_order.name}"
 
 
-pedido1 = Order(43123)
+pedido1 = Order(1)
 # Esta parte de comprobaciones debes hacerla con pytest
-pedido1.delivered_order()
+pedido1.send_order()
 print(pedido1)
