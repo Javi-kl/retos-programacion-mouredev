@@ -4,7 +4,7 @@ Repositorio con mis soluciones a los retos de programación propuestos por [Mour
 
 ## 📋 Descripción
 
-Este proyecto contiene mis implementaciones y soluciones a los ejercicios de programación planteados en los retos de Mouredev. El objetivo es practicar lógica de programación, mejorar mis habilidades con Python y documentar mi progreso de aprendizaje.
+Soluciones a los ejercicios de programación planteados en los retos de Mouredev. El objetivo es practicar lógica de programación, mejorar mis habilidades con Python y documentar mi progreso de aprendizaje.
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -46,13 +46,19 @@ PYTHONPATH=src pytest
 
 ## 📝 Ejercicios resueltos
 
-- [x] **Ejercicio 12**: JSON y XML - Manipulación de archivos JSON y XML
-- [x] **Ejercicio 13**: Pruebas unitarias - Implementación de tests
-- [ ] **Ejercicio 14**: Próximo reto (en progreso)
+- [x] **Ejercicio 12**: JSON y XML 
+- [x] **Ejercicio 13**: Pruebas unitarias 
+- [X] **Ejercicio 14**: Fechas
+- [X] **Ejercicio 15**: Asincronia
+- [X] **Ejercicio 16**: Expresiones regulares
+- [X] **Ejercicio 17**: Iteraciones
+- [X] **Ejercicio 18**: Conjuntos
+- [X] **Ejercicio 19**: Enumeraciones
+- [ ] **Ejercicio 20**: En progreso...
 
 ## 📚 Recursos
 
-- [Repositorio oficial de retos - Mouredev](https://github.com/mouredev/retos-programacion-2023)
+- [Repositorio oficial de retos - Mouredev](https://github.com/mouredev/roadmap-retos-programacion)
 - [Canal de YouTube - Mouredev](https://www.youtube.com/@mouredev)
 
 ## 👤 Autor
