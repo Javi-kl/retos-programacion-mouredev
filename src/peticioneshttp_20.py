@@ -50,7 +50,6 @@ def mostrar_datos_pokemon(datos_pokemon):
     peso = datos_pokemon["weight"]
     altura = datos_pokemon["height"]
 
-    #    Usamos una "list comprehension" para extraer los nombres de los tipos.
     tipos = [tipo["type"]["name"] for tipo in datos_pokemon["types"]]
 
     print("\n--- Información del Pokémon ---")
