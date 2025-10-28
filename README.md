@@ -1,10 +1,7 @@
 # Retos de Programación Parte 1 - Mouredev
 
-Repositorio con mis soluciones a los retos de programación propuestos por [Mouredev](https://github.com/mouredev).
+Repositorio con mis soluciones a los retos de programación propuestos por [Mouredev](https://github.com/mouredev) hasta el ejercicio 30 y documentando mi proceso de aprendizaje.
 
-## 📋 Descripción
-
-Soluciones a los ejercicios de programación planteados en los retos de Mouredev. El objetivo es practicar lógica de programación hasta el ejercicio 30 y documentar mi progreso de aprendizaje.
 
 ## 🛠️ Tecnologías utilizadas
 
