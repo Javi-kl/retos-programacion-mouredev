@@ -1,0 +1,29 @@
+2025-10-28 16:11:35,563 - INFO - Iniciando la función 'validar_contraseña' con parametro:  
+2025-10-28 16:11:35,564 - INFO - Validando con: ^(?=.{8,64}$)(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\w\s]).+$ 
+2025-10-28 16:11:35,564 - ERROR - No se ha introducido ninguna contraseña que validar
+2025-10-28 16:11:35,564 - INFO - 
+Iniciando parte Extra
+2025-10-28 16:11:35,564 - INFO - Llamando a función: añadir
+2025-10-28 16:11:35,564 - INFO - Parametros de función: ('pagarte a ti mismo', 'Al principio serás el primero en recibir tu parte', [])
+2025-10-28 16:11:35,564 - INFO - Fin función: añadir.
+2025-10-28 16:11:35,564 - INFO - La función: añadir  tardo 0.00003 en ejecutarse.
+2025-10-28 16:11:35,564 - INFO - Llamando a función: añadir
+2025-10-28 16:11:35,564 - INFO - Parametros de función: ('mantener servidor', 'Realizar mantenimiento semanal en el servidor', [{'tarea': 'pagarte a ti mismo', 'descripcion': 'Al principio serás el primero en recibir tu parte', 'fecha': '2025-10-28'}])
+2025-10-28 16:11:35,564 - INFO - Fin función: añadir.
+2025-10-28 16:11:35,564 - INFO - La función: añadir  tardo 0.00002 en ejecutarse.
+2025-10-28 16:11:35,564 - INFO - Llamando a función: listar
+2025-10-28 16:11:35,564 - INFO - Parametros de función: ([{'tarea': 'pagarte a ti mismo', 'descripcion': 'Al principio serás el primero en recibir tu parte', 'fecha': '2025-10-28'}, {'tarea': 'mantener servidor', 'descripcion': 'Realizar mantenimiento semanal en el servidor', 'fecha': '2025-10-28'}],)
+2025-10-28 16:11:35,564 - INFO - Solo se muestran los valores de las tareas
+2025-10-28 16:11:35,564 - INFO - Fin función: listar.
+2025-10-28 16:11:35,564 - INFO - La función: listar  tardo 0.00005 en ejecutarse.
+2025-10-28 16:11:35,564 - INFO - Llamando a función: eliminar
+2025-10-28 16:11:35,564 - INFO - Parametros de función: ([{'tarea': 'pagarte a ti mismo', 'descripcion': 'Al principio serás el primero en recibir tu parte', 'fecha': '2025-10-28'}, {'tarea': 'mantener servidor', 'descripcion': 'Realizar mantenimiento semanal en el servidor', 'fecha': '2025-10-28'}], 'mantener servidor')
+2025-10-28 16:11:35,564 - INFO - Tarea: mantener servidor borrada con exito
+2025-10-28 16:11:35,564 - INFO - Fin función: eliminar.
+2025-10-28 16:11:35,564 - INFO - La función: eliminar  tardo 0.00010 en ejecutarse.
+2025-10-28 16:11:35,564 - INFO - Llamando a función: listar
+2025-10-28 16:11:35,564 - INFO - Parametros de función: ([{'tarea': 'pagarte a ti mismo', 'descripcion': 'Al principio serás el primero en recibir tu parte', 'fecha': '2025-10-28'}],)
+2025-10-28 16:11:35,564 - INFO - Solo se muestran los valores de las tareas
+2025-10-28 16:11:35,564 - INFO - Fin función: listar.
+2025-10-28 16:11:35,564 - INFO - La función: listar  tardo 0.00004 en ejecutarse.
+2025-10-28 16:11:35,564 - WARNING - La función gestion_tareas debe convertirse en un menú para usuario
