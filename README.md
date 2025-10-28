@@ -4,7 +4,7 @@ Repositorio con mis soluciones a los retos de programación propuestos por [Mour
 
 ## 📋 Descripción
 
-Soluciones a los ejercicios de programación planteados en los retos de Mouredev. El objetivo es practicar lógica de programación, mejorar mis habilidades con Python y documentar mi progreso de aprendizaje.
+Soluciones a los ejercicios de programación planteados en los retos de Mouredev. El objetivo es practicar lógica de programación hasta el ejercicio 30 y documentar mi progreso de aprendizaje.
 
 ## 🛠️ Tecnologías utilizadas
 
