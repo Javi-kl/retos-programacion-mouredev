@@ -1,10 +1,7 @@
-# Retos de Programación - Mouredev
+# Retos de Programación Parte 1 - Mouredev
 
-Repositorio con mis soluciones a los retos de programación propuestos por [Mouredev](https://github.com/mouredev).
+Repositorio con mis soluciones a los retos de programación propuestos por [Mouredev](https://github.com/mouredev) hasta el ejercicio 30 y documentando mi proceso de aprendizaje.
 
-## 📋 Descripción
-
-Soluciones a los ejercicios de programación planteados en los retos de Mouredev. El objetivo es practicar lógica de programación, mejorar mis habilidades con Python y documentar mi progreso de aprendizaje.
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -54,7 +51,12 @@ PYTHONPATH=src pytest
 - [X] **Ejercicio 17**: Iteraciones
 - [X] **Ejercicio 18**: Conjuntos
 - [X] **Ejercicio 19**: Enumeraciones
-- [ ] **Ejercicio 20**: En progreso...
+- [X] **Ejercicio 20**: Peticiones http
+- [X] **Ejercicio 21**: Callbacks
+- [X] **Ejercicio 22**: Funciones orden superior
+- [X] **Ejercicio 23**: Diseño singleton
+- [X] **Ejercicio 24**: Decoradores
+- [X] **Ejercicio 25**: Logs
 
 ## 📚 Recursos
 
