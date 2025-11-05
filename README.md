@@ -66,13 +66,12 @@ PYTHONPATH=src pytest
 ## 📚 Recursos
 
 - [Repositorio oficial de retos - Mouredev](https://github.com/mouredev/roadmap-retos-programacion)
-- [Canal de YouTube - Mouredev](https://www.youtube.com/@mouredev)
 
 
 ## 📄 Licencia
 
 Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
 
----
+
 
 ⭐ Si te ha sido útil este repositorio, ¡dale una estrella!
