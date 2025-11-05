@@ -1,6 +1,6 @@
 # Retos de Programación Parte 1 - Mouredev
 
-Repositorio con mis soluciones a los retos de programación propuestos por [Mouredev](https://github.com/mouredev) hasta el ejercicio 30 y documentando mi proceso de aprendizaje.
+Mis soluciones a los retos de programación propuestos por [Mouredev](https://github.com/mouredev) hasta el ejercicio 30 y documentando mi proceso de aprendizaje.
 
 
 ## 🛠️ Tecnologías utilizadas
@@ -57,18 +57,17 @@ PYTHONPATH=src pytest
 - [X] **Ejercicio 23**: Diseño singleton
 - [X] **Ejercicio 24**: Decoradores
 - [X] **Ejercicio 25**: Logs
+- [X] **Ejercicio 26**: Solid - SRP
+- [X] **Ejercicio 27**: Solid - OCP
+- [X] **Ejercicio 28**: Solid - LSP
+- [X] **Ejercicio 29**: Solid - ISP
+- [X] **Ejercicio 30**: Solid - DIP
 
 ## 📚 Recursos
 
 - [Repositorio oficial de retos - Mouredev](https://github.com/mouredev/roadmap-retos-programacion)
 - [Canal de YouTube - Mouredev](https://www.youtube.com/@mouredev)
 
-## 👤 Autor
-
-**[Tu Nombre]**
-
-- GitHub: [@javi-kl](https://github.com/javi-kl)
-- LinkedIn: [Tu perfil](https://linkedin.com/in/tu-perfil) *(opcional)*
 
 ## 📄 Licencia
 
