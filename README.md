@@ -1,6 +1,6 @@
 # Retos de Programación Parte 1 - Mouredev
 
-Mis soluciones a los retos de programación propuestos por [Mouredev](https://github.com/mouredev) hasta el ejercicio 30 y documentando mi proceso de aprendizaje.
+Mis soluciones(Funcionamiento básico, no refactor) a los retos de programación propuestos por [Mouredev](https://github.com/mouredev) hasta el ejercicio 30 y documentando mi proceso de aprendizaje.
 
 
 ## 🛠️ Tecnologías utilizadas
@@ -68,10 +68,3 @@ PYTHONPATH=src pytest
 - [Repositorio oficial de retos - Mouredev](https://github.com/mouredev/roadmap-retos-programacion)
 
 
-## 📄 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
-
-
-
-⭐ Si te ha sido útil este repositorio, ¡dale una estrella!
