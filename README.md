@@ -1,6 +1,7 @@
 # Retos de Programación Parte 1 - Mouredev
 
-Mis soluciones(Funcionamiento básico, no refactor) a los retos de programación propuestos por [Mouredev](https://github.com/mouredev) hasta el ejercicio 30 y documentando mi proceso de aprendizaje.
+Mis soluciones(Funcionamiento básico, no refactor) a los retos de programación: [Mouredev](https://github.com/mouredev) hasta el ejercicio 30 y documentando mi proceso de aprendizaje.
+El resto serán añadidos al repositorio original mediante PR con el fin de practicar el flujo de trabajo colaborativo.
 
 
 ## 🛠️ Tecnologías utilizadas
